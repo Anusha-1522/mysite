@@ -1,0 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:#020617;
+}
+
+nav ul{
+  display:flex;
+  gap:20px;
+  list-style:none;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:120px 20px;
+}
+
+.hero span{
+  color:#38bdf8;
+}
+
+.hero-buttons{
+  margin-top:20px;
+}
+
+/* BUTTONS */
+.btn{
+  background:#38bdf8;
+  padding:12px 22px;
+  color:black;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:bold;
+  margin-right:10px;
+}
+
+.btn2{
+  border:2px solid #38bdf8;
+  padding:10px 20px;
+  color:#38bdf8;
+  border-radius:6px;
+  text-decoration:none;
+}
+
+/* CONTAINER */
+.container{
+  max-width:800px;
+  margin:auto;
+  padding:60px 20px;
+  text-align:center;
+}
+
+/* SKILLS */
+.skill{
+  margin:20px 0;
+}
+
+.bar{
+  background:#1e293b;
+  height:12px;
+  border-radius:10px;
+}
+
+.progress{
+  height:12px;
+  background:#38bdf8;
+  border-radius:10px;
+}
+
+/* PROJECT CARD */
+.card{
+  background:#020617;
+  padding:20px;
+  margin:20px auto;
+  border-radius:10px;
+}
+
+/* INPUTS */
+input, textarea{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:6px;
+}
+
+/* FOOTER */
+footer{
+  background:#020617;
+  text-align:center;
+  padding:20px;
+}
